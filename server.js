@@ -12,13 +12,13 @@ const DB = process.env.DATABASE.replace(
 );
 
 mongoose
-  .connect(DB, {
+  .connect(process.env.DATABASE_LOCAL, {
     ///////for local database replace DB with this line
     //process.env.DATABASE_LOCAL
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
-    //useUnifiedTopology: true,
+    useUnifiedTopology: true,
   })
   .then(() => console.log('DB connection successful!'));
 
