@@ -7,7 +7,7 @@ const router = express.Router();
 
 //create a checkBody middleware
 //check if body cintains the name and price property
-//If not, sind back 400 (bad request)
+//If not, send back 400 (bad request)
 //Add it to the post handler stack
 
 router
