@@ -1,6 +1,2 @@
 # Ethio-Tour
-
-dhj
-yut
-sdf
-s
+A tour guide web app, built using MERN stack. 
