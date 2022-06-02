@@ -4,26 +4,8 @@ const viewsController = require('../controllers/viewsController');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.status(200).render('base', {
-    tour: 'The hiker',
-    user: 'jo',
-  });
-});
-
-router.get('/overview', viewsController.getOverview);
-
-router.get('/overview', (req, res) => {
-  res.status(200).render('overview', {
-    title: 'The forest hiker',
-  });
-});
-
-router.get('/tour', (req, res) => {
-  res.status(200).render('tour', {
-    title: 'The hiker',
-  });
-});
+router.get('/', viewsController.getOverview);
+router.get('/tour', viewsController.getTour);
 
 // router.get('/', authController.isLoggedIn, viewsController.getOverview);
 // router.get('/tour/:slug', authController.isLoggedIn, viewsController.getTour);
