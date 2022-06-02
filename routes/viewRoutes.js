@@ -1,5 +1,5 @@
 const express = require('express');
-// const viewsController = require('../controllers/viewsController');
+const viewsController = require('../controllers/viewsController');
 // const authController = require('../controllers/authController');
 
 const router = express.Router();
@@ -10,6 +10,8 @@ router.get('/', (req, res) => {
     user: 'jo',
   });
 });
+
+router.get('/overview', viewsController.getOverview);
 
 router.get('/overview', (req, res) => {
   res.status(200).render('overview', {
