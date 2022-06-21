@@ -20,6 +20,7 @@ mongoose
   .connect(process.env.DATABASE_LOCAL, {
     useNewUrlParser: true,
     useCreateIndex: true,
+    //useFindAndModify set to false
     useFindAndModify: false,
   })
   .then(() => console.log('DB connection successful!'));
