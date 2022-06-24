@@ -8,7 +8,6 @@
 //   container: 'map',
 //   style: 'mapbox://styles/jo-b/cl4su58xy000615s6qaac9nvy',
 // });
-
 export const displayMap = (locations) => {
   mapboxgl.accessToken =
     'pk.eyJ1Ijoiam8tYiIsImEiOiJjbDQzOG8zeTgwMjk0M2Ntbng1NmdnM3RoIn0.iH2tA3ggtN-KMXQrcS8hZQ';
