@@ -11,11 +11,11 @@ var map = new mapboxgl.Map({
 
 // export const displayMap = (locations) => {
 //   mapboxgl.accessToken =
-//     'pk.eyJ1Ijoiam8tYiIsImEiOiJjbDRzY2hxMjQwM2R0M3JwaHNrOGNrZGs2In0.vPnvwBVg_8lyWsPhkTfbsg';
+//     'pk.eyJ1Ijoiam8tYiIsImEiOiJjbDQzOG8zeTgwMjk0M2Ntbng1NmdnM3RoIn0.iH2tA3ggtN-KMXQrcS8hZQ';
 
 //   var map = new mapboxgl.Map({
 //     container: 'map',
-//     style: 'mapbox://styles/jonasschmedtmann/cjvi9q8jd04mi1cpgmg7ev3dy',
+//     style: 'mapbox://styles/jo-b/cl4su58xy000615s6qaac9nvy',
 //     scrollZoom: false,
 //     // center: [-118.113491, 34.111745],
 //     // zoom: 10,
