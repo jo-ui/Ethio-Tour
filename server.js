@@ -20,7 +20,6 @@ mongoose
   .connect(DB, {
     useNewUrlParser: true,
     useCreateIndex: true,
-    //useFindAndModify set to false
     useFindAndModify: false,
   })
   .then(() => console.log('DB connection successful!'));
