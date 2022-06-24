@@ -16,10 +16,11 @@ const DB = process.env.DATABASE.replace(
 );
 
 mongoose
-  //for local database use this => process.env.DATABASE_LOCAL
+  //for local database you can use this one => process.env.DATABASE_LOCAL
   .connect(process.env.DATABASE_LOCAL, {
     useNewUrlParser: true,
     useCreateIndex: true,
+    //useFindAndModify set to false
     useFindAndModify: false,
   })
   .then(() => console.log('DB connection successful!'));
