@@ -27,14 +27,25 @@ app.options('*', cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Set security HTTP headers
-app.use(helmet());
-app.use(
-  helmet.contentSecurityPolicy({
-    directives: {
-      'script-src-attr': null,
-    },
-  })
-);
+
+//when helmet middleware is set CORS/content security policy error occurs on tour page
+//app.use(helmet());
+
+// app.use(
+//   helmet({
+//     contentSecurityPolicy: false,
+//     crossOriginEmbedderPolicy: false,
+//   })
+// );
+
+// app.use((req, res, next) => {
+//   res.setHeader(
+//     'Content-Security-Policy',
+//     "script-src  'self' api.mapbox.com",
+//     "script-src-elem 'self' api.mapbox.com"
+//   );
+//   next();
+// });
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {
