@@ -1,2 +1,3 @@
 # Ethio-Tour
-A tour guide web app, built using MERN stack. 
+
+A complete tour guide and booking web app, built using MERN stack.
