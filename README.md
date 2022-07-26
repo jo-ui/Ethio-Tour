@@ -5,6 +5,7 @@ A complete tour guide and booking web app, built using MERN stack.
 ## Prerequisites
 - Node
 - npm/yarn
+- MongoDB setup Local/ cloud
 
 ## How to start
 Fork the project and download the code and open your favorite IDE
@@ -21,20 +22,12 @@ npm i
 npm start
 ```
 
-3. Split the terminal and type
+3. On other terminal tab initiate mongo if you are using local database
 ```
-cd client
+mongod
 ```
 ``` 
-npm i
-```
-```
-npm start
-```
-
-OR just type
-```
-npm run start_full_app
+mongo
 ```
 
 ## TechStack and Designs
