@@ -7,9 +7,9 @@ A complete tour guide and booking web app, built using MERN stack.
 - npm/yarn
 
 ## How to start
-Fork the project and download the code open your favorite IDE
+Fork the project and download the code and open your favorite IDE
 
-1. Open terminal type command
+1. Open terminal and type this command
 
 ``` 
 npm i
