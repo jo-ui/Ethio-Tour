@@ -20,18 +20,36 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
     client_reference_id: req.params.tourId,
     line_items: [
       {
-        name: `${tour.name} Tour`,
-        description: tour.summary,
-        // images: [`https://www.natours.dev/img/tours/${tour.imageCover}`],
-        images: [
-          `https://s3-eu-west-1.amazonaws.com/travellocal-production/content/787dc50b-b649-4698-b6e2-5709d020fa67-Dallol%20volcano%20Danakil%20Depression%20Ethiopia_large.jpg`,
-        ],
+        price_data: {
+          currency: 'usd',
+          product_data: {
+            name: `${tour.name} Tour`,
+            description: tour.summary,
+            // images: [`https://www.natours.dev/img/tours/${tour.imageCover}`],
+            images: [
+              `https://s3-eu-west-1.amazonaws.com/travellocal-production/content/787dc50b-b649-4698-b6e2-5709d020fa67-Dallol%20volcano%20Danakil%20Depression%20Ethiopia_large.jpg`,
+            ],
+          },
 
-        amount: tour.price * 100,
-        currency: 'usd',
+          unit_amount: tour.price * 100,
+        },
+
         quantity: 1,
       },
     ],
+    mode: 'payment',
+    // line_items: [
+    //   {
+    //     name: `${tour.name} Tour`,
+    //     description: tour.summary,
+    //     images: [
+    //       `https://s3-eu-west-1.amazonaws.com/travellocal-production/content/787dc50b-b649-4698-b6e2-5709d020fa67-Dallol%20volcano%20Danakil%20Depression%20Ethiopia_large.jpg`,
+    //     ],
+    //     amount: tour.price * 100,
+    //     currency: 'usd',
+    //     quantity: 1,
+    //   },
+    // ],
   });
 
   // 3) Create session as response
