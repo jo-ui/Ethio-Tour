@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://ethio-tour.herokuapp.com/"><img src="https://github.com/jo-ui/Ethio-tour/blob/master/public/img/logo-green-round.png" alt="Ethio-tour" width="200"></a>
+  <a href="https://ethio-tour.herokuapp.com/"><img src="https://github.com/jo-ui/Ethio-Tour/blob/00c8fbfc15b3dfadcb841ee4645023572f05c524/public/img/logo-green-round.png" alt="Ethio-tour" width="200"></a>
   <br>
   Ethio Tour
   <br>
