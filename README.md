@@ -182,4 +182,5 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 * Improve overall UX/UI and fix bugs
 * Featured Tours
 * Recently Viewed Tours
+* Discount using coupon code
 * And More ! There's always room for improvement!
