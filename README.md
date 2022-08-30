@@ -30,6 +30,7 @@ Live demo (Feel free to visit) 👉 : https://ethio-tour.herokuapp.com/
 ## Key Features
 
 * Authentication and Authorization
+  - Signup
   - Login and logout
 * Tour
   - Manage booking, check tours map, check users' reviews and rating
