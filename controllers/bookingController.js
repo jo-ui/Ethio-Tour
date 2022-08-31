@@ -29,7 +29,9 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
             description: tour.summary,
             // images: [`https://www.natours.dev/img/tours/${tour.imageCover}`],
             images: [
-              `https://s3-eu-west-1.amazonaws.com/travellocal-production/content/787dc50b-b649-4698-b6e2-5709d020fa67-Dallol%20volcano%20Danakil%20Depression%20Ethiopia_large.jpg`,
+              `${req.protocol}://${req.get('host')}/img/tours/${
+                tour.imageCover
+              }`,
             ],
           },
 
