@@ -24,7 +24,7 @@
 </p>
 
 ## Deployed Version
-Live demo (Feel free to visit) 👉 : https://ethio-tour.herokuapp.com/
+Live demo (Feel free to visit using the link) 👉 : https://ethio-tour.herokuapp.com/
 
 
 ## Key Features
