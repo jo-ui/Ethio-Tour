@@ -67,7 +67,7 @@ Live demo (Feel free to visit using the link) 👉 : https://ethio-tour.herokuap
 * Search for tours that you want to book
 * Book a tour
 * Proceed to the payment checkout page
-* Enter the card details (Test Mood):
+* Enter the card details (Test Mode):
   ```
   - Card No. : 4242 4242 4242 4242
   - Expiry date: 02 / 24
