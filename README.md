@@ -130,7 +130,7 @@ heroku apps:rename natours-users
 
 ## Build With
 
-* [NodeJS](https://nodejs.org/en/) - JS runtime environment
+* [NodeJS](https://nodejs.org/en/) - Javascript runtime environment
 * [Express](http://expressjs.com/) - The web framework used
 * [Mongoose](https://mongoosejs.com/) - Object Data Modelling (ODM) library
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Cloud database service
