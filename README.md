@@ -31,7 +31,8 @@ Live demo (Feel free to visit using the link) 👉 : https://ethio-tour.herokuap
 
 * Authentication and Authorization
   - Signup
-  - Login and logout
+  - Login 
+  - Logout
 * Tour
   - Manage booking, check tours map, check users' reviews and rating
 * User profile
