@@ -183,6 +183,7 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 ## Future Updates
 
 * Enable PWA
+* Local payments
 * Improve overall UX/UI and fix bugs
 * Featured Tours
 * Recently Viewed Tours
