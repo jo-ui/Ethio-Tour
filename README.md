@@ -71,7 +71,7 @@ Live demo (Feel free to visit using the link) 👉 : https://ethio-tour.herokuap
 * Enter the card details (Test Mode):
   ```
   - Card No. : 4242 4242 4242 4242
-  - Expiry date: 02 / 25
+  - Expiry date: 02 / 26
   - CVV: 222
   ```
 * Finished!
