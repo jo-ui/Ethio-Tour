@@ -155,7 +155,7 @@ heroku apps:rename natours-users
   - Signup, confirm user email, login with refresh token, two-factor authentication
 * Implement admin management
   - Create, Read, Update and Delete tours
-* And More ! There's always room for improvement!
+* And More! There's always room for improvement!
 
 
 ## Installation
