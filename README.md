@@ -10,7 +10,7 @@
 
  <p align="center">
  <a href="#deployed-version">Demo</a> •
-  <a href="#key-features">Key Features</a> •sd
+  <a href="#key-features">Key Features</a> •
   <a href="#demonstration">Demonstration</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#api-usage">API Usage</a> •
@@ -64,7 +64,7 @@ Live demo (Feel free to visit using the link) 👉 : https://ethio-tour.herokuap
 ## How To Use
 
 ### Book a tour
-* Login to the site
+* Login to the website
 * Search for tours that you want to book
 * Book a tour
 * Proceed to the payment checkout page
